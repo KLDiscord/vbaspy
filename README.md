@@ -14,8 +14,7 @@
 ---
 
 #### 💗 New Features v.2.0 !!
- * Startup!
- and new things
+ * Just VBASpy!
  
 #### 🎁 Things will send to you when it grabs someting :
  -  Username, Computer name
@@ -33,17 +32,16 @@ If requests module is not installed in your victim's computer,
 JustaGrabberV2 will just exit.
  
 ### 📁・ How to use
-1. Download python 3 at [python.org](https://python.org). Must be 3.x.x
-2. Open "JustaGrabberV2.py" with any code editor.
+1. Download python 3 at [python.org](https://python.org). Must be version 3 or higher with add to path
+2. Download the vbaspy library ( you can see details at the bottom )
 3. Replace Your settings at line 20-27
 4. Send the code or use as backdoor. Or convert to exe then give to others
 
-### ⚙・How to compile .py to .exe
-First, install pyinstaller using pip in cmd. ( pip install pyinstaller )
-And you must have to check to 'Add python x.x.x to path' when you install
-Open cmd in the directory that the JustaGrabbeV2r.py is in then type : 
+### ⚙・How to download package ( for Windows, other, you can find it on youtube )
+You must have to check to 'Add python (version) to path' when you install
+Open cmd at start menu, and then type :
 ```
-pyinstaller --onefile --clean --noconsole JustaGrabberV2.py
+pip install vbaspy
 ```
 replace JustaGrabber.py to your file name.
 3 folders and 1 file will be created, delete except for the dist folder.
